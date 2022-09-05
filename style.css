@@ -80,9 +80,22 @@ margin-left: 8px;
     left:20px ;
 }
 footer{
+    position: absolute;
+    top: 90%;
+    left: 48%;
     display: flex;
     color: white;
 
+}
+.data{
+    position: absolute;
+    top: 87%;
+    left: 42%;
+    color: rgb(255, 254, 254);
+    font-weight: 1500;
+    font-size: 20px;
+    text-decoration: underline;
+    text-transform: uppercase;
 }
 .copyright{
     text-align: center;
@@ -98,6 +111,14 @@ footer{
         position: absolute;
         top: 90%;
         left: 35%;
+    }
+}
+@media (max-width:720px)
+{
+    .data{
+        position: absolute;
+        top: 85%;
+        left: 30%;
     }
 }
 @media (max-width:280px){
