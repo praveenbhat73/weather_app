@@ -113,14 +113,7 @@ footer{
         left: 35%;
     }
 }
-@media (max-width:720px)
-{
-    .data{
-        position: absolute;
-        top: 85%;
-        left: 30%;
-    }
-}
+
 @media (max-width:280px){
     .copyright{
         font-size: 10px;
