@@ -92,6 +92,14 @@ footer{
     top: 80%;
 
 }
+@media (max-width:477px)
+{
+    footer{
+        position: absolute;
+        top: 90%;
+        left: 35%;
+    }
+}
 @media (max-width:280px){
     .copyright{
         font-size: 10px;
