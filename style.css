@@ -84,3 +84,16 @@ footer{
     color: white;
 
 }
+.copyright{
+    text-align: center;
+    font-size: medium;
+    line-height: 2px;
+    position: absolute;
+    top: 80%;
+
+}
+@media (max-width:280px){
+    .copyright{
+        font-size: 10px;
+    }
+}
